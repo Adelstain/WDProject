@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		768B818D2042DD5A00893533 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 768B818C2042DD5A00893533 /* placeholder.jpg */; };
+		76A0693A2042D13A00E93208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069392042D13A00E93208 /* AppDelegate.m */; };
+		76A069422042D13A00E93208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A069412042D13A00E93208 /* Assets.xcassets */; };
+		76A069482042D13B00E93208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069472042D13B00E93208 /* main.m */; };
+		76A069522042D13B00E93208 /* WDProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069512042D13B00E93208 /* WDProjectTests.m */; };
+		76A0695D2042D13B00E93208 /* WDProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A0695C2042D13B00E93208 /* WDProjectUITests.m */; };
+		76A069762042D21C00E93208 /* CanadaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A0696D2042D21C00E93208 /* CanadaModel.m */; };
+		76A069772042D21C00E93208 /* WDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069702042D21C00E93208 /* WDViewController.m */; };
+		76A069782042D21C00E93208 /* CanadaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069722042D21C00E93208 /* CanadaCell.m */; };
+		76A069792042D21C00E93208 /* CanadaTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069752042D21C00E93208 /* CanadaTable.m */; };
+		76A069832042D24500E93208 /* WDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A0697D2042D24500E93208 /* WDNavigationController.m */; };
+		76A069842042D24500E93208 /* WDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069802042D24500E93208 /* WDBaseViewController.m */; };
+		76A069852042D24500E93208 /* WDBaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069812042D24500E93208 /* WDBaseListViewController.m */; };
+		76A0699C2042D28100E93208 /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A0698F2042D28100E93208 /* NSString+Common.m */; };
+		76A0699D2042D28100E93208 /* UIView+ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069902042D28100E93208 /* UIView+ToastView.m */; };
+		76A0699E2042D28100E93208 /* NSJSONSerialization+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069912042D28100E93208 /* NSJSONSerialization+Json.m */; };
+		76A0699F2042D28100E93208 /* UIImageView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069922042D28100E93208 /* UIImageView+Common.m */; };
+		76A069A02042D28100E93208 /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069942042D28100E93208 /* NullSafe.m */; };
+		76A069A12042D28100E93208 /* HTTPRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069962042D28100E93208 /* HTTPRequestTool.m */; };
+		76A069A22042D28100E93208 /* WDRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A069972042D28100E93208 /* WDRequest.m */; };
+		76A069A32042D28100E93208 /* WDResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A0699B2042D28100E93208 /* WDResponse.m */; };
+		F34F9BA43AAEC3B21C3FE2CF /* Pods_WDProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81537148C0141EF669A38491 /* Pods_WDProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76A0694E2042D13B00E93208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76A0692D2042D13A00E93208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A069342042D13A00E93208;
+			remoteInfo = WDProject;
+		};
+		76A069592042D13B00E93208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76A0692D2042D13A00E93208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A069342042D13A00E93208;
+			remoteInfo = WDProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37B6FD4F67F66C64C8835FA5 /* Pods-WDProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-WDProject/Pods-WDProject.release.xcconfig"; sourceTree = "<group>"; };
+		768B818C2042DD5A00893533 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		76A069352042D13A00E93208 /* WDProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A069382042D13A00E93208 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76A069392042D13A00E93208 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76A069412042D13A00E93208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76A069462042D13B00E93208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A069472042D13B00E93208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76A0694D2042D13B00E93208 /* WDProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A069512042D13B00E93208 /* WDProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDProjectTests.m; sourceTree = "<group>"; };
+		76A069532042D13B00E93208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A069582042D13B00E93208 /* WDProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A0695C2042D13B00E93208 /* WDProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDProjectUITests.m; sourceTree = "<group>"; };
+		76A0695E2042D13B00E93208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A0696C2042D21C00E93208 /* CanadaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanadaModel.h; sourceTree = "<group>"; };
+		76A0696D2042D21C00E93208 /* CanadaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanadaModel.m; sourceTree = "<group>"; };
+		76A0696F2042D21C00E93208 /* WDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDViewController.h; sourceTree = "<group>"; };
+		76A069702042D21C00E93208 /* WDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDViewController.m; sourceTree = "<group>"; };
+		76A069722042D21C00E93208 /* CanadaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanadaCell.m; sourceTree = "<group>"; };
+		76A069732042D21C00E93208 /* CanadaTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanadaTable.h; sourceTree = "<group>"; };
+		76A069742042D21C00E93208 /* CanadaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanadaCell.h; sourceTree = "<group>"; };
+		76A069752042D21C00E93208 /* CanadaTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanadaTable.m; sourceTree = "<group>"; };
+		76A0697C2042D24500E93208 /* WDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDNavigationController.h; sourceTree = "<group>"; };
+		76A0697D2042D24500E93208 /* WDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDNavigationController.m; sourceTree = "<group>"; };
+		76A0697F2042D24500E93208 /* WDBaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDBaseListViewController.h; sourceTree = "<group>"; };
+		76A069802042D24500E93208 /* WDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDBaseViewController.m; sourceTree = "<group>"; };
+		76A069812042D24500E93208 /* WDBaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDBaseListViewController.m; sourceTree = "<group>"; };
+		76A069822042D24500E93208 /* WDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDBaseViewController.h; sourceTree = "<group>"; };
+		76A069872042D25F00E93208 /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		76A069882042D25F00E93208 /* URLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLMacros.h; sourceTree = "<group>"; };
+		76A0698B2042D28100E93208 /* UIView+ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ToastView.h"; sourceTree = "<group>"; };
+		76A0698C2042D28100E93208 /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
+		76A0698D2042D28100E93208 /* NSJSONSerialization+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+Json.h"; sourceTree = "<group>"; };
+		76A0698E2042D28100E93208 /* UIImageView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Common.h"; sourceTree = "<group>"; };
+		76A0698F2042D28100E93208 /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		76A069902042D28100E93208 /* UIView+ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ToastView.m"; sourceTree = "<group>"; };
+		76A069912042D28100E93208 /* NSJSONSerialization+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+Json.m"; sourceTree = "<group>"; };
+		76A069922042D28100E93208 /* UIImageView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Common.m"; sourceTree = "<group>"; };
+		76A069942042D28100E93208 /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
+		76A069962042D28100E93208 /* HTTPRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequestTool.m; sourceTree = "<group>"; };
+		76A069972042D28100E93208 /* WDRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDRequest.m; sourceTree = "<group>"; };
+		76A069982042D28100E93208 /* WDResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDResponse.h; sourceTree = "<group>"; };
+		76A069992042D28100E93208 /* HTTPRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequestTool.h; sourceTree = "<group>"; };
+		76A0699A2042D28100E93208 /* WDRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDRequest.h; sourceTree = "<group>"; };
+		76A0699B2042D28100E93208 /* WDResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDResponse.m; sourceTree = "<group>"; };
+		76A069A62042D7C900E93208 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		81537148C0141EF669A38491 /* Pods_WDProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WDProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		952183378588D74CBFDAFCAD /* Pods-WDProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WDProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WDProject/Pods-WDProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A069322042D13A00E93208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34F9BA43AAEC3B21C3FE2CF /* Pods_WDProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A0694A2042D13B00E93208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A069552042D13B00E93208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39F7AA05B762524C7FA29FFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81537148C0141EF669A38491 /* Pods_WDProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76A0692C2042D13A00E93208 = {
+			isa = PBXGroup;
+			children = (
+				768B818C2042DD5A00893533 /* placeholder.jpg */,
+				76A069A62042D7C900E93208 /* PrefixHeader.pch */,
+				76A069372042D13A00E93208 /* WDProject */,
+				76A069502042D13B00E93208 /* WDProjectTests */,
+				76A0695B2042D13B00E93208 /* WDProjectUITests */,
+				76A069362042D13A00E93208 /* Products */,
+				F9325525504AB66D04FBADC5 /* Pods */,
+				39F7AA05B762524C7FA29FFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76A069362042D13A00E93208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A069352042D13A00E93208 /* WDProject.app */,
+				76A0694D2042D13B00E93208 /* WDProjectTests.xctest */,
+				76A069582042D13B00E93208 /* WDProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A069372042D13A00E93208 /* WDProject */ = {
+			isa = PBXGroup;
+			children = (
+				76A069892042D28100E93208 /* Utils */,
+				76A069862042D25F00E93208 /* Define */,
+				76A0697A2042D24500E93208 /* Base */,
+				76A0696A2042D21C00E93208 /* Modules */,
+				76A069382042D13A00E93208 /* AppDelegate.h */,
+				76A069392042D13A00E93208 /* AppDelegate.m */,
+				76A069412042D13A00E93208 /* Assets.xcassets */,
+				76A069462042D13B00E93208 /* Info.plist */,
+				76A069472042D13B00E93208 /* main.m */,
+			);
+			path = WDProject;
+			sourceTree = "<group>";
+		};
+		76A069502042D13B00E93208 /* WDProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				76A069512042D13B00E93208 /* WDProjectTests.m */,
+				76A069532042D13B00E93208 /* Info.plist */,
+			);
+			path = WDProjectTests;
+			sourceTree = "<group>";
+		};
+		76A0695B2042D13B00E93208 /* WDProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76A0695C2042D13B00E93208 /* WDProjectUITests.m */,
+				76A0695E2042D13B00E93208 /* Info.plist */,
+			);
+			path = WDProjectUITests;
+			sourceTree = "<group>";
+		};
+		76A0696A2042D21C00E93208 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				76A0696B2042D21C00E93208 /* Models */,
+				76A0696E2042D21C00E93208 /* Controllers */,
+				76A069712042D21C00E93208 /* Views */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		76A0696B2042D21C00E93208 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76A0696C2042D21C00E93208 /* CanadaModel.h */,
+				76A0696D2042D21C00E93208 /* CanadaModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		76A0696E2042D21C00E93208 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				76A0696F2042D21C00E93208 /* WDViewController.h */,
+				76A069702042D21C00E93208 /* WDViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		76A069712042D21C00E93208 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76A069732042D21C00E93208 /* CanadaTable.h */,
+				76A069752042D21C00E93208 /* CanadaTable.m */,
+				76A069742042D21C00E93208 /* CanadaCell.h */,
+				76A069722042D21C00E93208 /* CanadaCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76A0697A2042D24500E93208 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				76A0697B2042D24500E93208 /* NavigationController */,
+				76A0697E2042D24500E93208 /* BaseViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		76A0697B2042D24500E93208 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				76A0697C2042D24500E93208 /* WDNavigationController.h */,
+				76A0697D2042D24500E93208 /* WDNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		76A0697E2042D24500E93208 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				76A0697F2042D24500E93208 /* WDBaseListViewController.h */,
+				76A069802042D24500E93208 /* WDBaseViewController.m */,
+				76A069812042D24500E93208 /* WDBaseListViewController.m */,
+				76A069822042D24500E93208 /* WDBaseViewController.h */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		76A069862042D25F00E93208 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				76A069872042D25F00E93208 /* UtilsMacros.h */,
+				76A069882042D25F00E93208 /* URLMacros.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		76A069892042D28100E93208 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				76A0698A2042D28100E93208 /* Category */,
+				76A069932042D28100E93208 /* NULLTool */,
+				76A069952042D28100E93208 /* HTTPRequestTool */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		76A0698A2042D28100E93208 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				76A0698B2042D28100E93208 /* UIView+ToastView.h */,
+				76A069902042D28100E93208 /* UIView+ToastView.m */,
+				76A0698D2042D28100E93208 /* NSJSONSerialization+Json.h */,
+				76A069912042D28100E93208 /* NSJSONSerialization+Json.m */,
+				76A0698E2042D28100E93208 /* UIImageView+Common.h */,
+				76A069922042D28100E93208 /* UIImageView+Common.m */,
+				76A0698C2042D28100E93208 /* NSString+Common.h */,
+				76A0698F2042D28100E93208 /* NSString+Common.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		76A069932042D28100E93208 /* NULLTool */ = {
+			isa = PBXGroup;
+			children = (
+				76A069942042D28100E93208 /* NullSafe.m */,
+			);
+			path = NULLTool;
+			sourceTree = "<group>";
+		};
+		76A069952042D28100E93208 /* HTTPRequestTool */ = {
+			isa = PBXGroup;
+			children = (
+				76A069992042D28100E93208 /* HTTPRequestTool.h */,
+				76A069962042D28100E93208 /* HTTPRequestTool.m */,
+				76A0699A2042D28100E93208 /* WDRequest.h */,
+				76A069972042D28100E93208 /* WDRequest.m */,
+				76A069982042D28100E93208 /* WDResponse.h */,
+				76A0699B2042D28100E93208 /* WDResponse.m */,
+			);
+			path = HTTPRequestTool;
+			sourceTree = "<group>";
+		};
+		F9325525504AB66D04FBADC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				952183378588D74CBFDAFCAD /* Pods-WDProject.debug.xcconfig */,
+				37B6FD4F67F66C64C8835FA5 /* Pods-WDProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A069342042D13A00E93208 /* WDProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A069612042D13B00E93208 /* Build configuration list for PBXNativeTarget "WDProject" */;
+			buildPhases = (
+				B7F71AC8C416977DE08F89D0 /* [CP] Check Pods Manifest.lock */,
+				76A069312042D13A00E93208 /* Sources */,
+				76A069322042D13A00E93208 /* Frameworks */,
+				76A069332042D13A00E93208 /* Resources */,
+				49A9C72C496CAA17D9345D00 /* [CP] Embed Pods Frameworks */,
+				F97DA80B7C044E94163087B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDProject;
+			productName = WDProject;
+			productReference = 76A069352042D13A00E93208 /* WDProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76A0694C2042D13B00E93208 /* WDProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A069642042D13B00E93208 /* Build configuration list for PBXNativeTarget "WDProjectTests" */;
+			buildPhases = (
+				76A069492042D13B00E93208 /* Sources */,
+				76A0694A2042D13B00E93208 /* Frameworks */,
+				76A0694B2042D13B00E93208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A0694F2042D13B00E93208 /* PBXTargetDependency */,
+			);
+			name = WDProjectTests;
+			productName = WDProjectTests;
+			productReference = 76A0694D2042D13B00E93208 /* WDProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76A069572042D13B00E93208 /* WDProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A069672042D13B00E93208 /* Build configuration list for PBXNativeTarget "WDProjectUITests" */;
+			buildPhases = (
+				76A069542042D13B00E93208 /* Sources */,
+				76A069552042D13B00E93208 /* Frameworks */,
+				76A069562042D13B00E93208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A0695A2042D13B00E93208 /* PBXTargetDependency */,
+			);
+			name = WDProjectUITests;
+			productName = WDProjectUITests;
+			productReference = 76A069582042D13B00E93208 /* WDProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A0692D2042D13A00E93208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = fengweidong;
+				TargetAttributes = {
+					76A069342042D13A00E93208 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					76A0694C2042D13B00E93208 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76A069342042D13A00E93208;
+					};
+					76A069572042D13B00E93208 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76A069342042D13A00E93208;
+					};
+				};
+			};
+			buildConfigurationList = 76A069302042D13A00E93208 /* Build configuration list for PBXProject "WDProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76A0692C2042D13A00E93208;
+			productRefGroup = 76A069362042D13A00E93208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A069342042D13A00E93208 /* WDProject */,
+				76A0694C2042D13B00E93208 /* WDProjectTests */,
+				76A069572042D13B00E93208 /* WDProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76A069332042D13A00E93208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A069422042D13A00E93208 /* Assets.xcassets in Resources */,
+				768B818D2042DD5A00893533 /* placeholder.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A0694B2042D13B00E93208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A069562042D13B00E93208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49A9C72C496CAA17D9345D00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WDProject/Pods-WDProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WDProject/Pods-WDProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7F71AC8C416977DE08F89D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WDProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F97DA80B7C044E94163087B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WDProject/Pods-WDProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A069312042D13A00E93208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A069842042D24500E93208 /* WDBaseViewController.m in Sources */,
+				76A069772042D21C00E93208 /* WDViewController.m in Sources */,
+				76A069A02042D28100E93208 /* NullSafe.m in Sources */,
+				76A069A12042D28100E93208 /* HTTPRequestTool.m in Sources */,
+				76A069792042D21C00E93208 /* CanadaTable.m in Sources */,
+				76A069832042D24500E93208 /* WDNavigationController.m in Sources */,
+				76A069A22042D28100E93208 /* WDRequest.m in Sources */,
+				76A0699C2042D28100E93208 /* NSString+Common.m in Sources */,
+				76A0699F2042D28100E93208 /* UIImageView+Common.m in Sources */,
+				76A069A32042D28100E93208 /* WDResponse.m in Sources */,
+				76A069852042D24500E93208 /* WDBaseListViewController.m in Sources */,
+				76A0699D2042D28100E93208 /* UIView+ToastView.m in Sources */,
+				76A069762042D21C00E93208 /* CanadaModel.m in Sources */,
+				76A069482042D13B00E93208 /* main.m in Sources */,
+				76A0693A2042D13A00E93208 /* AppDelegate.m in Sources */,
+				76A0699E2042D28100E93208 /* NSJSONSerialization+Json.m in Sources */,
+				76A069782042D21C00E93208 /* CanadaCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A069492042D13B00E93208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A069522042D13B00E93208 /* WDProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A069542042D13B00E93208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A0695D2042D13B00E93208 /* WDProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76A0694F2042D13B00E93208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76A069342042D13A00E93208 /* WDProject */;
+			targetProxy = 76A0694E2042D13B00E93208 /* PBXContainerItemProxy */;
+		};
+		76A0695A2042D13B00E93208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76A069342042D13A00E93208 /* WDProject */;
+			targetProxy = 76A069592042D13B00E93208 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		76A0695F2042D13B00E93208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76A069602042D13B00E93208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76A069622042D13B00E93208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952183378588D74CBFDAFCAD /* Pods-WDProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7275A222MH;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = WDProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeedonFenng.WDProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76A069632042D13B00E93208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B6FD4F67F66C64C8835FA5 /* Pods-WDProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7275A222MH;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = WDProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeedonFenng.WDProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76A069652042D13B00E93208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WDProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeedonFenng.WDProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDProject.app/WDProject";
+			};
+			name = Debug;
+		};
+		76A069662042D13B00E93208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WDProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeedonFenng.WDProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDProject.app/WDProject";
+			};
+			name = Release;
+		};
+		76A069682042D13B00E93208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WDProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeedonFenng.WDProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WDProject;
+			};
+			name = Debug;
+		};
+		76A069692042D13B00E93208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WDProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeedonFenng.WDProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WDProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A069302042D13A00E93208 /* Build configuration list for PBXProject "WDProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A0695F2042D13B00E93208 /* Debug */,
+				76A069602042D13B00E93208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A069612042D13B00E93208 /* Build configuration list for PBXNativeTarget "WDProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A069622042D13B00E93208 /* Debug */,
+				76A069632042D13B00E93208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A069642042D13B00E93208 /* Build configuration list for PBXNativeTarget "WDProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A069652042D13B00E93208 /* Debug */,
+				76A069662042D13B00E93208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A069672042D13B00E93208 /* Build configuration list for PBXNativeTarget "WDProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A069682042D13B00E93208 /* Debug */,
+				76A069692042D13B00E93208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76A0692D2042D13A00E93208 /* Project object */;
+}
